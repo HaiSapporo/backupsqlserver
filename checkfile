@@ -2,3 +2,10 @@
 IF EXIST "*.jpg" DEL "*.jpg" /s
 
 exit
+SET F="c:\test.txt"
+ 
+IF EXIST %F% (
+  ECHO %F% is existing
+) ELSE (
+  ECHO %F% is not existing
+)
