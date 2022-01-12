@@ -1,0 +1,4 @@
+@echo off
+IF EXIST "*.jpg" DEL "*.jpg" /s
+
+exit
